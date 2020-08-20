@@ -1,21 +1,34 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+ls
 
 # 2 - What is the command for changing directories?
+cd <directory>
 
 # 3 - What is the command for going back a folder (to a parent directory)?
+cd ..
 
 # 4 - What is a quick way to create a new folder?
+mkdir <directoryName>
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+ls shows a list of objects in the folder. if there is nothing there nothing shows. if there is files or folders in it, it shows a list of them.
 
 # 6 - What is a quick way to create a new file?
+touch <fileName>
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+it shows the version of git that I have installed  --  'git version 2.24.3 (Apple Git-128)'
 
 # 8 - Why would you run the command 'git status'?
+after initializing a git directory, git will be watching for changes to the items it is made aware of in the directory. git status shows a list of files in the directory and if any changes have been made it is aware of
 
 # 9 - What does the command 'git add .' do?
+this will add all files that are in the current directory to the git directory. from then on all the files in the directory will be tracked by git
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push {arguments/flags} <destination url> <reference>
+    the example push command we used was 'git push -u origin master'. this set of arguments says we want to update the 'master' branch under the location 'origin'
+          - origin refers to the remote git repository that would need to have already been pre-defined in another command.
+          - master branch is original branch name given to the example directory.
