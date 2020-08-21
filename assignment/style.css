@@ -30,12 +30,19 @@ ul {font-family: fantasy;}
 }
 
 .image{
-width: auto;
-
+width: 400px;
+height: 300px;
 
 }
 
 .spacediv{
 
   width: 40%;
+}
+
+.coffeebrands{
+
+  font-size: 20px;
+  color: blue;
+  text-align: center;
 }
