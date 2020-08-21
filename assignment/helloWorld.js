@@ -3,13 +3,14 @@ console.log('Hello World!')
 
 
 
-function updateImage(image){
+function updateImage(){
 
-  if (image.src = 'coffeeroaster.jpg' ) {
-      image.src = 'img2.png'
+  if (document.getElementById("coffee").alt === 'paradise') {
+      document.getElementById("coffee").src = 'img2.png';
+      document.getElementById('coffee').alt = 'smith';
+} else if (document.getElementById("coffee").alt === 'smith') {
 
-  } else if (image.src = 'img2.png') {
-      image.src = 'coffeeroaster.jpg'
-  }
-
+  document.getElementById("coffee").src = 'coffeeroaster.jpg';
+  document.getElementById('coffee').alt = 'paradise'
+}
 }
